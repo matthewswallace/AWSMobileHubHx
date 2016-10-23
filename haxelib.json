@@ -1,0 +1,13 @@
+{
+  "name": "AWSMobileHubHx",
+  "url" : "https://github.com/matthewswallace/AWSMobileHubHx.git",
+  "license": "MIT",
+  "tags": ["mobile", "AWS", "Mobile", "iOS", "Android"],
+  "description": "This library will allow you to use AWS Mobile Hub on Android and iOS",
+  "version": "0.0.1",
+  "classPath": "aws/",
+  "releasenote": "Initial release, everything is working correctly.",
+  "contributors": ["Matthew Wallace"],
+  "dependencies": {
+  }
+}

@@ -4,8 +4,8 @@ if (platform === Platform.iOS) {
 	//project.addLib('GameKit');
 
 
-	project.addFile('AWSMobileHubIos/AWSMobileHib.h');
-	project.addFile('AWSMobileHubIos/AWSMobileHib.mm');
+	project.addFile('AWSMobileHubIos/AWSMobileHub.h');
+	project.addFile('AWSMobileHubIos/AWSMobileHub.mm');
 }
 else if (platform === Platform.Android) {
 	// project.addFile('android/gamecenterkore/**');

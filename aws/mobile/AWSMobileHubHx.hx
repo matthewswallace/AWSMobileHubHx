@@ -6,13 +6,11 @@ package aws.mobile;
 #end
 
 
-class AWSMobileHub {
+class AWSMobileHubHx {
 	
 	#if (sys_ios || sys_android_native)
-	@:keep
-	@:functionCode('AWSMobileHub::helloFromMobileHub;')
+	@:functionCode('AWSMobileHub::helloFromMobileHub();')
 	#end
+	public static function helloFromMobileHub():Void { }
 
-	@:keep
-	public static function helloFromMobileHub() { }
 }
